@@ -37,7 +37,8 @@ class AddPointsController extends AbstractController
         $card->setNumber($pointsBefore);
         $entityManager->flush();
 
-        return new Response( 'Points: '.$card->getNumber());
+        return new Response( 'Points: lol'.$card->getNumber());
+
 
     }
 }
